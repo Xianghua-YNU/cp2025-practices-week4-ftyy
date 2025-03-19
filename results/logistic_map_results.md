@@ -4,6 +4,10 @@
 
 ![时间序列图](path/to/timeseries.png)
 <img width="1120" alt="image" src="https://github.com/user-attachments/assets/4ed5bc78-368b-4dba-871e-23178988304a" />
+<img width="743" alt="image" src="https://github.com/user-attachments/assets/de1b4219-dd37-425e-adb6-1b19de05cc10" />
+<img width="745" alt="image" src="https://github.com/user-attachments/assets/5b500b55-fc70-491e-a5fa-ce98bcbdfbcb" />
+<img width="757" alt="image" src="https://github.com/user-attachments/assets/d2282804-b0f6-45a2-b171-885bebfff939" />
+<img width="737" alt="image" src="https://github.com/user-attachments/assets/d01dd74e-3511-4e9d-baf6-80d0aacb461e" />
 
 
 ## 费根鲍姆图
