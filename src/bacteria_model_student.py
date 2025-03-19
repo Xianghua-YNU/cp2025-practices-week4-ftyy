@@ -10,7 +10,7 @@ def V(t, tau):
     return 1 - np.exp(-t / tau)
 
 # 读取实验数据
-data = np.loadtxt('data/g149novickB.txt', delimiter=',', skiprows=1)
+BacteriaModel = np.loadtxt('data/g149novickB.txt', delimiter=',', skiprows=1)
 t_data = data[:, 0]
 V_data = data[:, 1]
 
