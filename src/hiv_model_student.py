@@ -55,7 +55,7 @@ def main():
 
     latent_period = 1 / model.alpha  # 以天为单位
     print(f"T细胞感染率倒数 1/α = {latent_period:.1f} 天")
-    print(f"相当于约 {latent_period/365:.1f} 年，与十年潜伏期相比，该参数需要进一步调整")
+    print(f"T细胞感染率的倒数1/α与十年潜伏期比值为 {latent_period/3650:.16f}")
 
     model.plot_model(time) #绘制模型图
 
