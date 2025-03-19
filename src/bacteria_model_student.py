@@ -11,8 +11,8 @@ def V(t, tau):
 
 # 读取实验数据
 BacteriaModel = np.loadtxt('data/g149novickB.txt', delimiter=',', skiprows=1)
-t_data = data[:, 0]
-V_data = data[:, 1]
+t_data = BacteriaModel[:, 0]
+V_data = BacteriaModel[:, 1]
 
 # 丢弃所有时间值大于10小时的数据
 mask = t_data <= 10
