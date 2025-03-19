@@ -14,10 +14,10 @@ class BacteriaModel:
     # 读取实验数据
     def load_bacteria_data(filename):
         try:
-            data = np.loadtxt('data/g194novickB.txt',delimiter=',')
+            data = np.loadtxt('data/g149novickB.txt',delimiter=',')
             return data['time'], data['response']
         except:
-            return np.loadtxt('data/g194novickB.txt', delimiter=',', unpack=True)
+            return np.loadtxt('data/g149novickB.txt', delimiter=',', unpack=True)
         t_data = data[:, 0]
         V_data = data[:, 1]
         # 丢弃所有时间值大于10小时的数据
